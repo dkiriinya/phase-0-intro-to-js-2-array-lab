@@ -15,24 +15,25 @@ function destructivelyRemoveFirstCat(){
     cats.shift()
 }
 function appendCat(name){
-    let undefined = cats.slice()
-    undefined.push(name)
-    return undefined
+    let newArray = cats.slice()
+    newArray.push(name)
+    return newArray
 }
 function prependCat(name){
-    let undefined = cats.slice()
-    undefined.unshift(name)
-    return undefined
+    let newArray = cats.slice()
+    newArray.unshift(name)
+    return newArray
 }
 
 function removeLastCat(){
-    let undefined = cats.slice()
-    undefined.pop()
-    return undefined
+    let newArray = cats.slice()
+    newArray.pop()
+    return newArray
 
 }
 function removeFirstCat(){
-    let undefined = cats.slice()
-    undefined.shift()
-    return undefined
+    let newArray = cats.slice()
+    newArray.shift()
+    return newArray
 }
+console.log(removeFirstCat())
